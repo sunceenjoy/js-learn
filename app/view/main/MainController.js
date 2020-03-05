@@ -10,7 +10,9 @@ Ext.define('NewApp.view.main.MainController', {
     onItemSelected: function (sender, record) {
         Ext.Msg.confirm('Confirm', 'Are you sure?', 'onConfirm', this);
     },
-
+    tabChange() {
+      alert(43)
+    },
     onConfirm: function (choice) {
         if (choice === 'yes') {
             //
