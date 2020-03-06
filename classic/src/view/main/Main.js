@@ -14,7 +14,7 @@ Ext.define('NewApp.view.main.Main', {
         'NewApp.view.main.Requires'
     ],   
     listeners: {
-      tabchange: 'tabChange'
+      //tabchange: 'tabChange'
     },
     controller: 'main',
     viewModel: 'main',
